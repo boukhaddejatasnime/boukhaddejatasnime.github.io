@@ -1,0 +1,147 @@
+.project1 {
+    width: 17em;
+    height: 25em;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .project1 span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  .project1 .info {
+    font-weight: bold;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin: 1em;
+    
+  }
+  
+  .project1 button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+    margin-top: 50px;
+  }
+  
+  .project1 button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }
+
+  .project2 {
+    width: 17em;
+    height: 25em;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .project2 span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  .project2 .info {
+    font-weight: bold;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin: 1em;
+  }
+  
+  .project2 button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+    margin-top: 70px;
+  }
+  
+  .project2 button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+    
+  }
+
+  .project3 {
+    width: 17em;
+    height: 25em;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .project3 span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  .project3 .info {
+    font-weight: bold;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin: 1em;
+  }
+  
+  .project3 button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .project3 button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }

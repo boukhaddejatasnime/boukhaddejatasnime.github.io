@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+ nav {
+   position:sticky; 
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+
+
+  /*nav ul {
+    list-style: none;
+    display: flex;
+  
+ 
+  }*/
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-underline-position: above;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #C71585; 
+    text-decoration: none;
+    border-bottom: 2px solid #C71585; 
+  }
+  
+  
+  .home, .about, .projects, .contact {
+    padding: 2rem;
+  }
+  
+  .projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .projects li {
+    margin-bottom: 1rem;
+  }
+  
+
+
+
+
+  /* projects.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animated-image {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.animated-text {
+  animation: slideIn 1s ease-in-out;
+}
+
+a:hover {
+  color: #ff69b4; /* Darker pink color on hover */
+  transition: color 0.3s ease;
+}
